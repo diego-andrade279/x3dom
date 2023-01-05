@@ -1,0 +1,364 @@
+<html> 
+   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+     <title>Meu primeiro X3DOM</title> 
+     <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script> 
+     <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'></link> 
+   </head> 
+   <body> 
+    
+     
+	 <x3d width='800px' height='600px'> 
+	   <scene> 
+
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="mesa.jpg"/>
+		    	</appearance> 
+		        <box size='106 2 49'/> 
+    		</shape> 
+
+        <shape> 
+    	    <appearance> 
+	    		    <imagetexture url="mesa.jpg"/>
+		    	</appearance> 
+		        <box size='106.2 1.8 49.2'/> 
+    		</shape> 
+    	
+      <transform translation='-52 -40.5 0'>
+        <shape> 
+            <appearance> 
+                <imagetexture url="mesa.jpg"/>
+            </appearance> 
+              <box size='2 79 49'/> 
+        </shape> 
+      </transform>
+
+    <transform translation='52 -40.5 0'>
+        <shape> 
+            <appearance> 
+                <imagetexture url="mesa.jpg"/>
+            </appearance> 
+              <box size='2 79 49'/> 
+        </shape> 
+      </transform>
+
+   <transform translation='10 -40.5 2'>
+        <shape> 
+            <appearance> 
+                <imagetexture url="mesa.jpg"/>
+            </appearance> 
+              <box size='2 79 49'/> 
+        </shape> 
+      </transform>
+
+       <transform translation='30 -79 0'>
+			<shape> 
+    	    <appearance> 
+	    		   <imagetexture url="mesa.jpg"/>
+		    	</appearance> 
+		        <box size='43 2 49'/> 
+    		</shape> 
+  </transform>
+
+   <transform translation='30 -20 0'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="mesa.jpg"/>
+		    	</appearance> 
+		        <box size='43 2 49'/> 
+    		</shape> 
+  </transform>
+
+   <transform translation='-20 -10 0'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="mesa.jpg"/>
+		    	</appearance> 
+		        <box size='60 1 49'/> 
+    		</shape> 
+  </transform>
+
+   <transform translation='-30 1.5 10'>
+			<shape> 
+    	    <appearance> 
+	    		    <material diffuseColor='0 0 0'/>
+		    	</appearance> 
+		        <box size='39 0.5 19'/> 
+    		</shape> 
+  </transform>
+
+<transform translation='-30 11 -1'rotation='1 0 0 1.4'>
+	<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="tela.jpg"/>
+		    	</appearance> 
+		        <box size='36 0.5 16'/> 
+	</shape> 
+  </transform>
+
+  <transform translation='-30 11 -1.5'rotation='1 0 0 1.4'>
+	<shape> 
+    	    <appearance> 
+	    		    <material diffuseColor='0 0 0'/>
+		    	</appearance> 
+		        <box size='39 1 20'/> 
+	</shape> 
+  </transform>
+
+  <transform translation='1 0.8 8'>
+			<shape> 
+    	    <appearance> 
+	    		    <material diffuseColor='0 0 0'/>
+		    	</appearance> 
+		        <box size='10 0.5 10'/> 
+    		</shape> 
+  </transform>
+
+   <transform translation='0 -80 120'>
+			<shape> 
+    	    <appearance> 
+           <imagetexture url="madeira.jpg"/>
+		    	</appearance> 
+		        <box size='550 0.5 300'/> 
+    		</shape> 
+  </transform>
+
+   <transform rotation='1 0 0 1.6' translation='0 1 -25'>
+			<shape> 
+    	    <appearance> 
+	    		      <imagetexture url="parede.jpg"/>
+		    	</appearance> 
+		        <box size='550 0.5 161'/> 
+    		</shape> 
+  </transform>
+
+<transform   translation='240 80 60'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='70 6 161'/> 
+    		</shape> 
+  </transform>
+
+<transform rotation='1 0 0 1.6'  translation='240 1 -20'>
+			<shape> 
+    	    <appearance> 
+	    		     <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='70 6 161'/> 
+    		</shape> 
+  </transform>
+
+  <transform rotation='1 0 0 1.6'  translation='240 1 135'>
+			<shape> 
+    	    <appearance> 
+	    		     <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='70 6 161'/> 
+    		</shape> 
+  </transform>
+  <transform rotation='1 0 0 1.6'  translation='240 1 80'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='70 6 161'/> 
+    		</shape> 
+  </transform>
+
+  <transform   translation='240 50 30'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='80 6 100'/> 
+    		</shape> 
+  </transform>
+
+  <transform   translation='240 20 30'>
+			<shape> 
+    	    <appearance> 
+	    		     <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='80 6 100'/> 
+    		</shape> 
+  </transform>
+
+<transform   translation='240 -10 30'>
+			<shape> 
+    	    <appearance> 
+	    		     <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='80 6 100'/> 
+    		</shape> 
+  </transform>
+
+  <transform   translation='240 -78 53'>
+			<shape> 
+    	    <appearance> 
+	    		     <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='70 5 160'/> 
+    		</shape> 
+  </transform>
+
+  <transform   translation='240 -40 30'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='70 5 100'/> 
+    		</shape> 
+  </transform>
+
+   <transform   translation='-20 -40 70'>
+			<shape> 
+    	    <appearance> 
+	    		     <imagetexture url="almo.jpg"/>
+		    	</appearance> 
+		        <box size='60 5 40'/> 
+    		</shape> 
+  </transform>
+
+   <transform rotation='0 0 1 1.6'  translation='-45 -60 84'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='40 5 10'/> 
+    		</shape> 
+  </transform>
+
+   <transform rotation='0 0 1 1.6'  translation='7 -60 84'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='40 5 10'/> 
+    		</shape> 
+  </transform>
+
+     <transform rotation='0 0 1 1.6'  translation='7 -60 55'>
+			<shape> 
+    	    <appearance> 
+	    		   <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='40 5 10'/> 
+    		</shape> 
+  </transform>
+
+  <transform rotation='0 0 1 1.6'  translation='-45 -60 55'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='40 5 10'/> 
+    		</shape> 
+  </transform>
+    <transform rotation='0 0 1 1.6'  translation='7 -30 84'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='40 5 10'/> 
+    		</shape> 
+  </transform>
+    <transform rotation='0 0 1 1.6'  translation='-45 -30 84'>
+			<shape> 
+    	    <appearance> 
+	    		   <imagetexture url="guarda.jpg"/>
+		    	</appearance> 
+		        <box size='40 5 10'/> 
+    		</shape> 
+  </transform>
+
+    <transform rotation='1 0  1.6'  translation='-20 0 84'>
+			<shape> 
+    	    <appearance> 
+	    		   <imagetexture url="mesa.jpg"/>
+		    	</appearance> 
+		        <box size='70 20 10'/> 
+    		</shape> 
+  </transform>
+
+    <transform rotation='0 0 0 0'  translation='-197 -50 105'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="cama1.jpg"/>
+		    	</appearance> 
+		        <box size='100 20 180'/> 
+    		</shape> 
+  </transform>
+
+   <transform rotation='1 0 0 1.6'  translation='-200 -35 10'>
+			<shape> 
+    	    <appearance> 
+	    		   <imagetexture url="cama.jpg"/>
+		    	</appearance> 
+		        <box size='120 10 80'/> 
+    		</shape> 
+  </transform>
+
+   <transform rotation='1 0 0 1.6'  translation='-197 -50 200'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="cama.jpg"/>
+		    	</appearance> 
+		        <box size='120 10 50'/> 
+    		</shape> 
+  </transform>
+
+   <transform rotation='1 0 0 1.6'  translation='0 -5 269'>
+			<shape> 
+    	    <appearance> 
+	    		      <imagetexture url="parede.jpg"/>
+		    	</appearance> 
+		        <box size='550 3 150'/> 
+    		</shape> 
+  </transform>
+
+  <transform  translation='-277 -5 120'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="janela.jpg"/>
+		    	</appearance> 
+		        <box size='5 150 295'/> 
+    		</shape> 
+  </transform>
+  
+   <transform  translation='277 -5 120'>
+			<shape> 
+    	    <appearance> 
+	    		   <imagetexture url="parede.jpg"/>
+		    	</appearance> 
+		        <box size='1 150 295'/> 
+    		</shape> 
+  </transform>
+  
+   <transform  translation='277 -13 190'>
+			<shape> 
+    	    <appearance> 
+	    		    <imagetexture url="porta.jpg"/>
+		    	</appearance> 
+		        <box size='5 120 55'/> 
+    		</shape> 
+  </transform>
+ 
+ <transform translation='-200 20 265'>
+   <shape>
+     <appearance>
+       <imagetexture url="tv.jpg"/>
+     </appearance>
+     <box size='100 50 2'/>
+   </shape>
+ </transform>
+  
+
+
+	   </scene> 
+	</x3d> 
+	
+   </body> 
+</html>  
